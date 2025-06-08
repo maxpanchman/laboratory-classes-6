@@ -1,21 +1,22 @@
 {
-  "name": "laboratory-classes-6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^2.2.0",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "laboratory-classes-6": "file:"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
+    "name": "laboratory-classes-6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "electron": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^2.2.0",
+        "ejs": "^3.1.10",
+        "express": "^5.1.0",
+        "laboratory-classes-6": "file:"
+    },
+    "devDependencies": {
+        "electron": "^28.3.3",
+        "nodemon": "^3.1.9"
+    }
 }
-
